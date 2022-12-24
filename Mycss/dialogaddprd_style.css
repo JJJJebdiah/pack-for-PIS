@@ -1,0 +1,28 @@
+QPushButton{
+    font-family:"微软雅黑";
+    font-size:18px;
+    min-width: 100;
+    min-height:28;
+    color: white;
+    background-color:#398072;
+    border-radius:3;
+}
+QPushButton:pressed{
+    font-family: "微软雅黑";
+    font-size:18px;
+    min-width: 100;
+    min-height:28;
+    color: white;
+    background-color:#1abc9c;
+    border-radius:3;
+}
+QHeaderView::section{
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    height: 30px;
+    color: #909399;
+    border: 1px solid gray;
+    border-left: none;
+}
